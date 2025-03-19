@@ -5,6 +5,7 @@ document.body.appendChild(getSumBtn);
 const table = document.getElementsByTagName("table")[0];
 
 let newRow = table.insertRow(-1);
+newRow.setAttribute("id", "ans");
 let newCell1 = newRow.insertCell(0);
 let newCell2 = newRow.insertCell(1);
 
